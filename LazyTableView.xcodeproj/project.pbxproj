@@ -14,6 +14,7 @@
 		9F08732F1E7F615000EF5BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F08732D1E7F615000EF5BD7 /* LaunchScreen.storyboard */; };
 		9F0873371E7F633500EF5BD7 /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0873361E7F633500EF5BD7 /* ParseOperation.swift */; };
 		9F0873391E7F6A2D00EF5BD7 /* AppRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0873381E7F6A2D00EF5BD7 /* AppRecord.swift */; };
+		9F08733B1E7F6F1F00EF5BD7 /* IconDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F08733A1E7F6F1F00EF5BD7 /* IconDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9F0873301E7F615000EF5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F0873361E7F633500EF5BD7 /* ParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseOperation.swift; sourceTree = "<group>"; };
 		9F0873381E7F6A2D00EF5BD7 /* AppRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRecord.swift; sourceTree = "<group>"; };
+		9F08733A1E7F6F1F00EF5BD7 /* IconDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				9F0873241E7F615000EF5BD7 /* AppDelegate.swift */,
 				9F0873261E7F615000EF5BD7 /* LazyTableViewController.swift */,
 				9F0873361E7F633500EF5BD7 /* ParseOperation.swift */,
+				9F0873381E7F6A2D00EF5BD7 /* AppRecord.swift */,
 				9F0873281E7F615000EF5BD7 /* Main.storyboard */,
 				9F08732B1E7F615000EF5BD7 /* Assets.xcassets */,
 				9F08732D1E7F615000EF5BD7 /* LaunchScreen.storyboard */,
 				9F0873301E7F615000EF5BD7 /* Info.plist */,
-				9F0873381E7F6A2D00EF5BD7 /* AppRecord.swift */,
+				9F08733A1E7F6F1F00EF5BD7 /* IconDownloader.swift */,
 			);
 			path = LazyTableView;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				9F0873371E7F633500EF5BD7 /* ParseOperation.swift in Sources */,
 				9F0873271E7F615000EF5BD7 /* LazyTableViewController.swift in Sources */,
 				9F0873391E7F6A2D00EF5BD7 /* AppRecord.swift in Sources */,
+				9F08733B1E7F6F1F00EF5BD7 /* IconDownloader.swift in Sources */,
 				9F0873251E7F615000EF5BD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
