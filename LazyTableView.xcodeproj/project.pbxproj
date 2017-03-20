@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9F0873251E7F615000EF5BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0873241E7F615000EF5BD7 /* AppDelegate.swift */; };
-		9F0873271E7F615000EF5BD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0873261E7F615000EF5BD7 /* ViewController.swift */; };
+		9F0873271E7F615000EF5BD7 /* LazyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0873261E7F615000EF5BD7 /* LazyTableViewController.swift */; };
 		9F08732A1E7F615000EF5BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0873281E7F615000EF5BD7 /* Main.storyboard */; };
 		9F08732C1E7F615000EF5BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F08732B1E7F615000EF5BD7 /* Assets.xcassets */; };
 		9F08732F1E7F615000EF5BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F08732D1E7F615000EF5BD7 /* LaunchScreen.storyboard */; };
+		9F0873371E7F633500EF5BD7 /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0873361E7F633500EF5BD7 /* ParseOperation.swift */; };
+		9F0873391E7F6A2D00EF5BD7 /* AppRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0873381E7F6A2D00EF5BD7 /* AppRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F0873211E7F615000EF5BD7 /* LazyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0873241E7F615000EF5BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F0873261E7F615000EF5BD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F0873261E7F615000EF5BD7 /* LazyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyTableViewController.swift; sourceTree = "<group>"; };
 		9F0873291E7F615000EF5BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F08732B1E7F615000EF5BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F08732E1E7F615000EF5BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F0873301E7F615000EF5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0873361E7F633500EF5BD7 /* ParseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseOperation.swift; sourceTree = "<group>"; };
+		9F0873381E7F6A2D00EF5BD7 /* AppRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				9F0873241E7F615000EF5BD7 /* AppDelegate.swift */,
-				9F0873261E7F615000EF5BD7 /* ViewController.swift */,
+				9F0873261E7F615000EF5BD7 /* LazyTableViewController.swift */,
+				9F0873361E7F633500EF5BD7 /* ParseOperation.swift */,
 				9F0873281E7F615000EF5BD7 /* Main.storyboard */,
 				9F08732B1E7F615000EF5BD7 /* Assets.xcassets */,
 				9F08732D1E7F615000EF5BD7 /* LaunchScreen.storyboard */,
 				9F0873301E7F615000EF5BD7 /* Info.plist */,
+				9F0873381E7F6A2D00EF5BD7 /* AppRecord.swift */,
 			);
 			path = LazyTableView;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0873271E7F615000EF5BD7 /* ViewController.swift in Sources */,
+				9F0873371E7F633500EF5BD7 /* ParseOperation.swift in Sources */,
+				9F0873271E7F615000EF5BD7 /* LazyTableViewController.swift in Sources */,
+				9F0873391E7F6A2D00EF5BD7 /* AppRecord.swift in Sources */,
 				9F0873251E7F615000EF5BD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

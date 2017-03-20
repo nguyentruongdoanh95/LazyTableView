@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LazyTableViewController: UITableViewController {
 
+    var entries: [AppRecord] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
